@@ -1,10 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Madimi+One&display=swap');
+
 body{
-    font-family: Arial,  sans-serif;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;      
+        background-image: url('leter.webp');
+        background-repeat: no-repeat; 
+        max-width: 100% ;
 }
 h1{
     text-align: center;
-    margin-top: 50px;
-    color: red;
+    margin-top: 20px;
+    color: #d4aa29;
+    font-family: "Madimi One", sans-serif;
+    
+}
+h2{
+    color: #d4aa29;
+    text-align: center;
+    margin-top: 40px; 
+    font-family: "Madimi One", sans-serif;
 }
 #guess-input{
     display: block;
@@ -13,36 +30,56 @@ h1{
     font-size: 18px;
     text-align: center;
     width: 250px;
-    border: 1px solid #ccc;
+    border: 7px solid #81830d;
 }
+#reiniciar{
+    display: block;
+     margin: 0 auto;
+     padding: 10px 40px;
+     font-size: 18px;
+     background-color:  #81830d;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+  }   
+
 #guess-button {
     display: block;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 18px;
-    background-color: #180cba;
+    background-color:#81830d;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
+    font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+        box-shadow: 0 12px 20px rgba(1,2,3,4.5), 
+    0 14px 28px rgba(1,2,3,4.5); 
   }
-     
+    
   button:active {
       transform: scale(0.95);
   }
      
   .letter {
-      border: 1px solid black;
-      padding: 3px;
-      margin: 3px;
-      min-width: 20px;
+      border: 1px solid rgb(99, 60, 60);
+      padding: 5px;
+      margin: 5px;
+      min-width: 30px;
       text-align: center;
       display: inline-block
   }
+
   .centrado{
     text-align: center;
   }
   .row{
-      margin-bottom: 10px;
+      margin-bottom: 12px;
   }
      
   .input-area{
